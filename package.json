@@ -1,0 +1,22 @@
+{
+  "name": "utilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node server.ts",
+    "build": "tsc",
+    "serve": "node dist/server.js"
+  },  
+  "keywords": [],
+  "author": "Tim",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "simple-git": "^3.24.0"
+  }
+}
