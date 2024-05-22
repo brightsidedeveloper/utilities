@@ -5,7 +5,7 @@ import path from 'path'
 const git = simpleGit()
 
 const filePath = path.join(__dirname, 'yeah-this-is-real.ts')
-const fileContent = `console.log("Hello, World!");\n
+const fileContent = `console.log("Hello, Jake!");\n
 console.log("This file was generated and pushed to GitHub using Node.js!");`
 
 // Step 1: Generate the file
